@@ -1,0 +1,32 @@
+{
+  "name": "demo-todo-angular2",
+  "version": "1.0.0",
+  "description": "first app for angular2",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "typings install",
+    "start": "webpack-dev-server --quiet"
+  },
+  "author": "JSANN（zenwink@gmail.com）",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^2.0.0-rc.6",
+    "@angular/compiler": "^2.0.0-rc.6",
+    "@angular/core": "^2.0.0-rc.6",
+    "@angular/platform-browser": "^2.0.0-rc.6",
+    "@angular/platform-browser-dynamic": "^2.0.0-rc.6",
+    "es6-shim": "^0.35.1",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "^5.0.0-beta.11",
+    "zone.js": "^0.6.17"
+  },
+  "devDependencies": {
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.3",
+    "webpack": "^1.13.2",
+    "webpack-dashboard": "^0.1.8",
+    "webpack-dev-server": "^1.15.1"
+  }
+}
+
